@@ -9,9 +9,9 @@ pages:
   artifacts:
     paths:
       - public
-  rules:
+  #rules:
     #- if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
-      when: on_success
+  #    when: on_success
   tags:
     - shared-shell-1
 
