@@ -10,7 +10,7 @@ pages:
     paths:
       - public
   rules:
-    #- if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
+    - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
       when: on_success
   tags:
     - shared-shell-1
