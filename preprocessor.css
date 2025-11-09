@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, --apple-system, sans-serif;
+    background-color: #be273907;
+}
+
+.skill-item {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    background: white;
+    padding: 0.8rem;
+    border-radius: 6px;
+    box-shadow: var(--card-shadow);
+    font-weight: 500;
+}
