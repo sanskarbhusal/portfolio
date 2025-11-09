@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Running tailwind in watch mode"
+
+tailwindcss --config ./tailwind.config.js -i ./input.css -o ./index.css --watch
