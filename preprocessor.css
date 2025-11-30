@@ -28,7 +28,6 @@ body {
     font-weight: 500;
 }
 
-
 .project-card {
     position: relative;
     width: 100%;
@@ -37,6 +36,13 @@ body {
     overflow: hidden;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
+}
+
+@media (min-width:768px) {
+    .project-card {
+        justify-content: space-between;
+        max-width: 30%;
+    }
 }
 
 @keyframes shift_up {
