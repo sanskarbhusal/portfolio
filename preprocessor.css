@@ -84,6 +84,14 @@ body {
     object-position: center;
 }
 
+.space-invaders-thumbnail {
+    padding-inline: 0.01rem;
+    padding-block: 0.01rem;
+    object-fit: contain;
+    object-position: center;
+    background-color: black;
+}
+
 .hide {
     display: none;
 }
