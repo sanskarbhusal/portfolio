@@ -1,10 +1,2 @@
-## Instructions
-1. Download the "address-book.tar" file
-2. cd into downloaded folder <br>
-`cd address-book`
-3. Run following command to extract make it ready to run <br>
-`tar -xvf address-book.tar`<br>
-`cd address-book`<br>
-`chmod +x main`<br>
-4. In the same directory run following command to run the file <br>
- `./main`
+[Gitlab hosted page](https://j-25-11.pages.bajratechnologies.com/J-25-11-QA/sanskar-bhusal/portfolio/)
+[Github hosted page](https://sanskarbhusal.com.np)
