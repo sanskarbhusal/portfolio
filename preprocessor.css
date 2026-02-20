@@ -17,7 +17,8 @@ body {
 }
 
 .skill-item {
-    width: 100%;
+    width: 14rem;
+    height: 3.5rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -26,6 +27,28 @@ body {
     border-radius: 6px;
     box-shadow: var(--card-shadow);
     font-weight: 500;
+}
+
+@media(max-width:640px) {
+    .skill-item {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.skill-item-linux {
+    padding: 0.5rem;
+}
+
+.skill-item-linux {
+    padding: 0.5rem;
+}
+
+.skill-item-express {
+    padding: 0.8rem;
+    padding-block-end: 0.05rem;
 }
 
 .project-card {
@@ -121,8 +144,6 @@ body {
     object-fit: contain;
     object-position: center;
 }
-
-
 
 .hide {
     display: none;
