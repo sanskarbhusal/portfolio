@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "mkdir -p dist && cp index.html dist && cp *.css dist && cp -r assets dist && echo -e 'sanskarbhusal.com.np\ninfo.sanskarbhusal.com.np' > dist/CNAME && npx gh-pages -d dist"
+    "deploy": "mkdir -p dist && cp index.html dist && cp *.css dist && cp -r assets dist && echo 'sanskarbhusal.com.np' > dist/CNAME && npx gh-pages -d dist"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.19"
